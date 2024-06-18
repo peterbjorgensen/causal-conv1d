@@ -363,10 +363,4 @@ setup(
     else {
         "bdist_wheel": CachedWheelsCommand,
     },
-    python_requires=">=3.9",
-    install_requires=[
-        "torch",
-        "packaging",
-        "ninja",
-    ],
 )
